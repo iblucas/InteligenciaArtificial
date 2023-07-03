@@ -5,9 +5,10 @@ body {
 }
 
 header {
-  background-color: #f2f2f2;
+  background-color: #062179;
   padding: 20px;
   text-align: center;
+  color: white;
 }
 
 .form-section {
@@ -35,7 +36,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #ee5315;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -43,16 +44,23 @@ button[type="submit"] {
 }
 
 footer {
-  background-color: #f2f2f2;
+  background-color: #11d44b;
   padding: 20px;
   text-align: center;
 }
 
-h3 { 
+h3 h2 { 
   text-align: center;
+  font-family:cursive;
+  color: blue
 }
 
 p { 
   text-align: center;
+  p {
+
+    font-family: Verdana;
+    
+    }
 }
 
