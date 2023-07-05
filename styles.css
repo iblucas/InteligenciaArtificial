@@ -77,6 +77,9 @@ nav {
   color:white
 }
 
+
+/* RESPONSIVE*/
+
 @media screen and (max-width:980px) {
 
   .container {
@@ -170,4 +173,6 @@ nav {
   }
 
 }
+
+
 

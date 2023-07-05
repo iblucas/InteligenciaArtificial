@@ -1,0 +1,201 @@
+
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-gap: 20px;
+      align-items: stretch;
+    }
+    
+    .grid > article {
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    }
+    
+    .grid > article img {
+      max-width: 100%;
+    }
+    
+    .grid .text {
+      padding: 20px;
+    } 
+  
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #ffffff;;
+        padding: 20px;
+        text-align: center;
+        color: white;
+      }
+      
+      .form-section {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+      
+      button[type="submit"] {
+        background-color: #ee5315;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      footer {
+        background-color:rgba(159, 161, 161, 0.7);;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      h3 h2 { 
+        text-align: center;
+        font-family:cursive;
+        color: blue
+      }
+      
+      p { 
+        text-align: center;
+        p {
+      
+          font-family: Verdana;
+          
+          }
+      }
+      
+      header {
+        background: rgba(0, 0, 0, 7);
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+      }
+      
+      
+      nav {
+      
+        color:white
+      }
+      
+      
+      /* RESPONSIVE*/
+      
+      @media screen and (max-width:980px) {
+      
+        .container {
+      
+          width:98%;
+      
+        }
+      
+        section {
+      
+          width:68%;
+      
+        }
+      
+      }
+      
+      
+      
+      /* para 700px o menos */
+      
+      @media screen and (max-width:700px) {
+      
+        aside,section {
+      
+          float:none;
+      
+          width:96%;
+      
+        }
+      
+        nav, section {
+      
+          font-size:1.2em;
+      
+        }
+      
+        aside {
+      
+          margin-top:5px;
+      
+        }
+      
+        nav ul {
+      
+          float:none;
+      
+          clear:both;
+      
+        }
+      
+      }
+      
+      
+      
+      /* para 480px o menos */
+      
+      @media screen and (max-width:480px) {
+      
+        aside {
+      
+          display:none;
+      
+        }
+      
+        nav, section {
+      
+          font-size:1.5em;
+      
+        }
+      
+        section {
+      
+          width:94%;
+      
+        }
+      
+        nav ul {
+      
+          float:left;
+      
+          clear:none;
+      
+          width:50%;
+      
+        }
+      
+        nav ul li {
+      
+          float:none;
+      
+        }
+      
+      }
+      
+      
+      
+      

@@ -1,0 +1,211 @@
+header {
+    background-color: #000;;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+    
+
+footer {
+        background-color:rgb(159, 161, 161, 0.7);
+        padding: 20px;
+        text-align: center;
+      }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .login-container {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(159, 161, 161, 0.7);
+  }
+  .login-container form {
+    width: 360px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .form-container {
+    margin: 20px 20px;
+  }
+  .mb {
+    margin-bottom: 30px;
+  }
+  .form-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 10px;
+  }
+  label {
+    font-size: 1.1rem;
+  }
+  .form-fields input {
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(122, 115, 115);
+  }
+  .form-fields input:hover,
+  input:focus {
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  #pass-field-container {
+    position: relative;
+  }
+  #pass {
+    padding-right: 35px;
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    accent-color: rgb(0, 0, 0);
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .form-fields input[type="submit"] {
+    height: 40px;
+    font-size: 1rem;
+    background-color: #ee5315;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .forgot-password a {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration-line: none;
+    padding-left: 8px;
+  }
+  
+ 
+/* RESPONSIVE */
+
+@media screen and (max-width:980px) {
+
+  .container {
+
+    width:98%;
+
+  }
+
+  section {
+
+    width:68%;
+
+  }
+
+}
+
+
+
+/* para 700px o menos */
+
+@media screen and (max-width:700px) {
+
+  aside,section {
+
+    float:none;
+
+    width:96%;
+
+  }
+
+  nav, section {
+
+    font-size:1.2em;
+
+  }
+
+  aside {
+
+    margin-top:5px;
+
+  }
+
+  nav ul {
+
+    float:none;
+
+    clear:both;
+
+  }
+
+}
+
+
+
+/* para 480px o menos */
+
+@media screen and (max-width:480px) {
+
+  aside {
+
+    display:none;
+
+  }
+
+  nav, section {
+
+    font-size:1.5em;
+
+  }
+
+  section {
+
+    width:94%;
+
+  }
+
+  nav ul {
+
+    float:left;
+
+    clear:none;
+
+    width:50%;
+
+  }
+
+  nav ul li {
+
+    float:none;
+
+  }
+
+}
+
+
+
