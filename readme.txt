@@ -29,11 +29,13 @@ Incluye un formulario  que recoge los datos de usuario (NOmbre,Email, mensaje y 
 
 
 
-Navbar
+NAVBAR
 
 El menu esta formado por un menu de Blog o Home cuando ingreses al blog,  que te invita a regresar a la pagina de origen.
 
 
+RESPONSIVE
+Todas las secciones son responsive.
 
 ---------------------------------------JAVESCRIPT-----------------------------------------
 
